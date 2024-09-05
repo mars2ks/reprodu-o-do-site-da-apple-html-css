@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'fonte-apple';
+    src: url('assets/fonts/SFPRODISPLAYREGULAR.OTF');
+}
+
+body{
+font-family: 'fonte-apple';
+}
+
+header{
+    background: #1D1D1F;
+    padding: 10px 0px 10px 100px;
+}
+
+header img{
+    width: 40px;
+    height: 40px;
+}
+
+.banner{
+    background: #000;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+}
+
+.banner h1{
+    padding: 14px;
+}
+
+.banner p{
+    padding: 10px;
+    margin: 0px 0px 16px 0px;
+}
+
+.banner a{
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.saiba-mais{
+    color: #fff;
+    background: #0071E3;
+    padding: 20px 30px;
+    border-radius: 60px;
+}
+
+#comprar-iphone{
+    border: 1px solid #0071E3;
+    color: #0071E3;
+    padding: 20px;
+    border-radius: 60px;
+}
+#comprar-iphone:hover{
+    color: #fff;
+    background: #0071E3;
+}
+
+#phones{
+    display: block;
+    margin: 70px auto;
+    
+}
+
+.banner-2{
+    background: #F5F5F7;
+}
+
+#fml{
+    padding: 18px 0 10px 50px;
+}
+
+.banner-2 span{
+    font-weight: bold;
+}
+
+.banner-2 a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.saiba{
+    color: #fff;
+    background-color: #0071E3;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.comprar{
+    color: #0071E3;
+    padding: 0px 14px
+}
+
+.comprar:hover{
+    text-decoration: underline;
+}
+
+.grid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 300px);
+    gap: 50px;
+}
+
+.grid-item{
+    text-align: center;
+}
+
+.banner-2 img{
+    height: 300px;
+    width: auto;
+}
+
+.iphone{
+    font-size: 28px;
+    margin: 5px 0px;
+}
+
+.banner-2 p {
+    font-size: 18px;
+    margin: 10px;
+}
+
+span{
+    display: block;
+    margin: 15px;
+    font-size: 24px;
+}
+
+.final{
+    background: #fff;
+    padding: 30px;
+}
